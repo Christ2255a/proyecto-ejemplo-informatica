@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Auriculares Inalámbricos X</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      /* Background image used for the hero section */
+      background-image: url('hero-bg.png');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+    /* Overlay to darken the hero background for better text contrast */
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    /* Container for hero text and button */
+    header .content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 0 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #e91e63;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      margin-top: 2rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #c2185b;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .feature {
+      flex: 1 1 250px;
+      background: #1e1e2f;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .feature h3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+    }
+    footer {
+      background-color: #0a0a15;
+      color: #888;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    /* Responsive adjustments for small screens */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .btn {
+        padding: 0.6rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <h1>Auriculares Inalámbricos X</h1>
+      <p>Experimenta la libertad del sonido de alta fidelidad sin cables.</p>
+      <a href="#" class="btn">Comprar Ahora</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Características principales</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Bluetooth 5.0</h3>
+        <p>Conexión estable y rápida para disfrutar de tu música sin interrupciones.</p>
+      </div>
+      <div class="feature">
+        <h3>Cancelación de ruido</h3>
+        <p>Aísla el ruido exterior y sumérgete en un sonido puro y cristalino.</p>
+      </div>
+      <div class="feature">
+        <h3>20 horas de batería</h3>
+        <p>Batería de larga duración para acompañarte en todo momento.</p>
+      </div>
+      <div class="feature">
+        <h3>Diseño ergonómico</h3>
+        <p>Comodidad asegurada para tus sesiones más largas de música o gaming.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sobre el producto</h2>
+    <p>Los auriculares inalámbricos X ofrecen un equilibrio perfecto entre diseño y rendimiento.
+    Equipados con la última tecnología en sonido y materiales de alta calidad, son el accesorio ideal para tu día a día.
+    Su compatibilidad universal te permite conectarlos a cualquier dispositivo con Bluetooth.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Auriculares Inalámbricos X. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
