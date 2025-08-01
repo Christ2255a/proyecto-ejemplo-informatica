@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auriculares Inalámbricos X - Galería extensa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #090a1a;
+            color: #fff;
+        }
+        a { color: inherit; text-decoration: none; }
+        /* Hero with rotating background */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            transition: background-image 1s ease-in-out;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            line-height: 1.5;
+        }
+        .hero .btn {
+            background-color: #ff3b6a;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero .btn:hover {
+            background-color: #e32657;
+        }
+        /* Product section */
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 1rem;
+            gap: 2rem;
+            background-color: #0e0f24;
+        }
+        .product img {
+            width: 100%;
+            max-width: 420px;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+        .product .content {
+            max-width: 500px;
+        }
+        .product .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .product .content ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        .product .content ul li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.2rem;
+            position: relative;
+        }
+        .product .content ul li::before {
+            content: '\2713';
+            color: #ff3b6a;
+            position: absolute;
+            left: 0;
+        }
+        .product .btn {
+            background-color: #ff3b6a;
+            padding: 0.7rem 1.5rem;
+            border-radius: 30px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .product .btn:hover {
+            background-color: #e32657;
+        }
+        /* Gallery */
+        .gallery {
+            background-color: #0e0f24;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .gallery h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .gallery .images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+        .gallery .images img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+        }
+        /* Features section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 1.5rem;
+            padding: 4rem 2rem;
+            background-color: #090a1a;
+        }
+        .feature-box {
+            background-color: #0e0f24;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+        }
+        .feature-box h3 {
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .feature-box p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        /* Footer */
+        footer {
+            background-color: #0e0f24;
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>AURICULARES INALÁMBRICOS X</h1>
+            <p>Experimenta la libertad de sonido de alta fidelidad sin cables. Diseñados para la máxima comodidad y estilo.</p>
+            <button class="btn">Comprar Ahora</button>
+        </div>
+    </section>
+
+    <section class="product">
+        <img src="daniel-romero-6V5vTuoeCZg-unsplash.jpg" alt="Auriculares inalámbricos" />
+        <div class="content">
+            <h2>Sonido premium y libertad total</h2>
+            <ul>
+                <li>Cancelación activa de ruido</li>
+                <li>Hasta 40 horas de autonomía con estuche de carga</li>
+                <li>Bluetooth 5.2 para una conexión estable</li>
+                <li>Diseño ergonómico resistente al agua</li>
+            </ul>
+            <button class="btn">Añadir al carrito</button>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Galería de imágenes</h2>
+        <div class="images">
+            <img src="daniel-romero-6V5vTuoeCZg-unsplash.jpg" alt="Auriculares original" />
+            <img src="variation1.jpg" alt="Variación 1" />
+            <img src="variation2.jpg" alt="Variación 2" />
+            <img src="variation3.jpg" alt="Variación 3" />
+            <img src="variation4.jpg" alt="Variación 4" />
+            <img src="variation5.jpg" alt="Variación 5" />
+            <img src="variation6.jpg" alt="Variación 6" />
+            <img src="variation7.jpg" alt="Variación 7" />
+            <img src="variation8.jpg" alt="Variación 8" />
+            <img src="variation9.jpg" alt="Variación 9" />
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-box">
+            <h3>Batería de larga duración</h3>
+            <p>Disfruta de música y llamadas durante horas sin preocuparte por la carga.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Calidad de sonido envolvente</h3>
+            <p>Tecnología de alta definición que te sumerge en cada nota.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Diseño ergonómico</h3>
+            <p>Auriculares ligeros y ajustables para máxima comodidad durante todo el día.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Control táctil intuitivo</h3>
+            <p>Gestiona música y llamadas con simples toques en los auriculares.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Proyecto de auriculares inalámbricos. Todos los derechos reservados.
+    </footer>
+
+    <script>
+        // Background slideshow
+        const hero = document.getElementById('hero');
+        const images = [
+            'daniel-romero-6V5vTuoeCZg-unsplash.jpg',
+            'variation2.jpg',
+            'variation3.jpg',
+            'hero-bg.png'
+        ];
+        let current = 0;
+        function updateBackground() {
+            hero.style.backgroundImage = `linear-gradient(rgba(9, 10, 26, 0.8), rgba(9, 10, 26, 0.8)), url('${images[current]}')`;
+        }
+        updateBackground();
+        setInterval(() => {
+            current = (current + 1) % images.length;
+            updateBackground();
+        }, 6000);
+    </script>
+</body>
+</html>
