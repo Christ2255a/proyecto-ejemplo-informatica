@@ -14,3 +14,14 @@ Este script de Python implementa un gestor de tareas en línea de comandos que p
    python todo_app.py
    ```
 3. Sigue las instrucciones del menú interactivo para añadir, listar o completar tareas. Al salir, las tareas se guardan en `tasks.json`.
+
+## Página web de auriculares inalámbricos
+
+Esta página web es un proyecto de desarrollo web que simula una landing page comercial para un producto de auriculares inalámbricos. Cuenta con:
+
+- Una sección hero con imagen de fondo y mensaje principal.
+- Descripción y características del producto (Bluetooth 5.0, cancelación de ruido, batería de 20 horas, diseño ergonómico).
+- Botón de llamada a la acción para comprar.
+- Estilo moderno inspirado en diseños de páginas promocionales.
+
+El archivo se encuentra en `auriculares.html` y utiliza la imagen `hero-bg.png` como fondo. Para ver la página, abre `auriculares.html` en tu navegador.
